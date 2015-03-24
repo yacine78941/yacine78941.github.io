@@ -13,7 +13,7 @@
 // Darker colours work best - avoid light / pale colours
 // Set opacity of colour overlay, between 0 and 1
 
-var colour = "#404041";
+var colour = "#0AABBA";
 var bgOpacityLevel = "0.85";
 
 
@@ -24,7 +24,7 @@ var bgOpacityLevel = "0.85";
 // Variable slideshowFade = transition speed for fade animation, in milliseconds
 // Variable slideshowDuration = time each slide is shown for, in milliseconds
 
-var slideshowBackground = 'on';
+var slideshowBackground = 'off';
 
 var slideshowBackgroundURLS = [
 	"images/background1.jpg",
@@ -46,8 +46,8 @@ var slideshowDuration = 4000;
 // Set videoMuted to 'true' and background videos will be muted with no toggle mute button visible
 // Set videoMuted to 'false' and videos will not be muted, and the toggle mute button will be visible on the site so users can turn off audio if they want
 
-var videoBackground = 'off';
-var videoBackgroundURL = 'PASTE-YOUTUBE-URL-HERE';
+var videoBackground = 'on';
+var videoBackgroundURL = 'https://www.youtube.com/watch?v=NdWaZkvAJfM';
 var videoMuted = true;
 
 
@@ -55,4 +55,4 @@ var videoMuted = true;
 // Set up the date and time that will be counted down to
 // Enter date in the format (24 hr clock): DD Month YYYY HH:MM:SS for example: 01 January 2015 23:04:00
 
-var countdownDate = "16 April 2015 00:00:00";
+var countdownDate = "16 April 2016 16:16:16";
