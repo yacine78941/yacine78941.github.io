@@ -33,7 +33,7 @@ a img {
     top: 0;
     bottom: 0;
 	z-index: 100;
-	background:linear-gradient(to right top, rgba(10, 171, 186, 0.73), rgba(255, 0, 0, 0.57))
+	background:linear-gradient(to right top, rgba(0, 113, 188, 0.7), rgba(255, 194, 246, 0.7));
 }
 	/* === background-color: rgba(10, 171, 186, 0.4)  === */
 
@@ -57,7 +57,13 @@ a img {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+h5{
+    color: #fff;
+    margin: 0 auto;
+    margin-left: 6%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
 h2.light-h2 {
 	font-weight: 800;
@@ -621,8 +627,24 @@ a.fo-facebook.footer-social:hover {
     background-color: #3b5998;
 }
 
+a.fo-instagram.footer-social:hover {
+    background-color: #3f729b;
+}
+
+a.fo-github.footer-social:hover {
+    background-color: #666666;
+}
+
+a.fo-dribbble.footer-social:hover {
+    background-color: #ea4c89;
+}
+
 a.fo-behance.footer-social:hover {
     background-color: #1769ff;
+}
+
+a.fo-tumblr.footer-social:hover {
+    background-color: #35465c;
 }
 
 
