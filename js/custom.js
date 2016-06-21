@@ -27,17 +27,17 @@ var bgOpacityLevel = "0.85";
 var slideshowBackground = 'off';
 
 var slideshowBackgroundURLS = [
-	"images/background1.jpg",
-	"images/background2.jpg",
-	"images/background3.jpg",
-	"images/background4.jpg",
-	"images/background5.jpg",
+  "images/background1.jpg",
+  "images/background2.jpg",
+  "images/background3.jpg",
+  "images/background4.jpg",
+  "images/background5.jpg",
 ];
 
 var slideshowFade = 1000;
 var slideshowDuration = 4000;
 
-		
+    
 // ==== VIDEO BACKGROUND ====
 // Enable Video Background - 'on' to enable, 'off' to disable
 // Cannot work on mobile devices due to device restrictions, instead shows slideshow
@@ -55,4 +55,4 @@ var videoMuted = true;
 // Set up the date and time that will be counted down to
 // Enter date in the format (24 hr clock): DD Month YYYY HH:MM:SS for example: 01 January 2015 23:04:00
 
-var countdownDate = "16 April 2016 16:16:16";
+var countdownDate = "16 April 2020 16:16:16";
