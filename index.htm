@@ -18,7 +18,7 @@
 		<div class="section-main" id="top">
 			<div class="mini-container main-mini-container">
 				<div class="title">
-					<a href="" class="active img-link scroll"><img class="logo" src="./img/logo.png"></a>
+					<a href="" class="active img-link scroll"><img class="logo" src="./img/logo_f.png"></a>
 					<h1>The Life potion is still been cooking.</h1>
 					The mystery will be reaveled <a href="" target="_blank"><i>after:</i></a></p>
 		
@@ -76,20 +76,12 @@
 		
 		<script type="text/javascript" src="./js/countdown.js"></script>
 		<script type="text/javascript" src="./js/jquery.backstretch.min.js"></script>
-		<script type="text/javascript" src="./js/placeholders.min.js"></script>
 		
 		
 		<script type="text/javascript">
 					$(document).ready(function(){
 						$("#countdown").countdown({ date: countdownDate	});
-						$('.section-main').backstretch([
-							      "./img/background1.jpg"
-							    , "./img/background2.jpg"
-							    , "./img/background3.jpg"
-							    , "./img/background4.jpg"
-							    , "./img/background5.jpg"
-							    , "./img/background6.jpg"
-						], {duration: 5000, fade: 750});
+						$('.section-main').backstretch(slideshowBackgroundURLS, {duration: slideshowDuration, fade: slideshowFade});
 				});
 		</script>
 </body>

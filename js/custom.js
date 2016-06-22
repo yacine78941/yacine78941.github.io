@@ -6,17 +6,6 @@
 // To setup, change the variables below
 // Follow instructions in comments, see documentation for more detail
 
-// ==== COLOUR SCHEME ====
-// Type in the HEX Code for the colour you want to use as the background of the site
-// Remember to include the Hex (#) symbol, e.g. #2c3e50
-// Need some colours to choose from? Nice choice of Flat UI colours here: http://flatuicolors.com
-// Darker colours work best - avoid light / pale colours
-// Set opacity of colour overlay, between 0 and 1
-
-var colour = "#0AABBA";
-var bgOpacityLevel = "0.85";
-
-
 // ==== SLIDESHOW BACKGROUND ====
 // Set URLs to background images inside the array
 // Each image must be on its own line, inbetween speech marks (" ") and with a comma at the end of the line
@@ -24,32 +13,16 @@ var bgOpacityLevel = "0.85";
 // Variable slideshowFade = transition speed for fade animation, in milliseconds
 // Variable slideshowDuration = time each slide is shown for, in milliseconds
 
-var slideshowBackground = 'off';
-
 var slideshowBackgroundURLS = [
-  "images/background1.jpg",
-  "images/background2.jpg",
-  "images/background3.jpg",
-  "images/background4.jpg",
-  "images/background5.jpg",
+  "img/background1.jpg",
+  "img/background2.jpg",
+  "img/background3.jpg",
+  "img/background4.jpg",
+  "img/background5.jpg",
 ];
 
 var slideshowFade = 1000;
-var slideshowDuration = 4000;
-
-    
-// ==== VIDEO BACKGROUND ====
-// Enable Video Background - 'on' to enable, 'off' to disable
-// Cannot work on mobile devices due to device restrictions, instead shows slideshow
-// If disabled slideshow is shown
-// Paste YouTube URL into the videoBackgronudURL variable - use YouTube link NOT embed code
-// Set videoMuted to 'true' and background videos will be muted with no toggle mute button visible
-// Set videoMuted to 'false' and videos will not be muted, and the toggle mute button will be visible on the site so users can turn off audio if they want
-
-var videoBackground = 'on';
-var videoBackgroundURL = 'https://www.youtube.com/watch?v=NdWaZkvAJfM';
-var videoMuted = true;
-
+var slideshowDuration = 5000;
 
 // ==== COUNTDOWN ====
 // Set up the date and time that will be counted down to
